@@ -18,6 +18,22 @@ export default {
           500: "#00C39A",
         },
       },
+      boxShadow: {
+        glow: "0 0 0 1px var(--tw-shadow-color), 0 0 12px var(--tw-shadow-color)",
+      },
+      animation: {
+        hover: "hover 5s ease-in-out infinite",
+      },
+      keyframes: {
+        hover: {
+          "0%,100%": {
+            transform: "translateY(-10px)",
+          },
+          "50%": {
+            transform: "translateY(10px)",
+          },
+        },
+      },
     },
   },
   plugins: [require("tailwindcss-question-mark")],
