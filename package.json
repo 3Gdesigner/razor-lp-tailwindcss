@@ -11,6 +11,7 @@
   "dependencies": {
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0",
+    "tailwindcss-question-mark": "^0.1.1",
     "vue": "^3.2.47"
   },
   "devDependencies": {

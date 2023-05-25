@@ -1,10 +1,13 @@
 <script setup>
 import ArrowRightIcon from "./icons/arrow-right.svg";
+import AppleIcon from "./icons/apple.svg";
+import playstoreIcon from "./icons/play-store.svg";
 </script>
 
 <template>
-  <div class="min-h-screen w-full bg-gray-800 text-white">
-    <div class="mx-auto max-w-7xl px-4 pt-8">
+  <div class="min-h-screen w-full bg-gray-800 text-white relative">
+    <div class="absolute inset-y-0 right-0 w-2/5 bg-gray-900 ?"></div>
+    <div class="mx-auto max-w-7xl px-4 pt-8 relative">
       <nav class="flex items-center justify-between">
         <div class="flex items-center gap-32">
           <a href="#" class="text-2xl font-bold">Razor</a>
@@ -41,26 +44,41 @@ import ArrowRightIcon from "./icons/arrow-right.svg";
               <div class="mt-10 flex items-center">
                 <input
                   type="text"
-                  class="flex-1 rounded-l-xl border-2 border-r-0 border-gray-700 bg-gray-900 px-6 py-4 leading-6 outline-none"
+                  class="flex-1 rounded-l-xl border-2 border-r-0 border-gray-700 bg-gray-900 px-8 py-4 leading-6 outline-none"
+                  placeholder="Sales@dstudio.digital"
                 />
                 <button
-                  class="rounded-r-xl border-2 border-l-0 border-gray-700 bg-teal-500 px-6 py-4 text-lg font-bold leading-6 text-gray-900"
+                  class="rounded-r-xl border-2 border-l-0 border-gray-700 bg-teal-500 px-8 py-4 text-lg font-bold leading-6 text-gray-900"
                 >
                   Get Link
                 </button>
               </div>
-              <p>
-                By singing up, I agree to the Razor Privacy Policy & Terms of
-                Service
+              <p class="pt-8 font-normal tracking-wide text-gray-600">
+                By singing up, I agree to the Razor
+                <a href="#" class="text-gray-500 underline">Privacy Policy</a> &
+                <a href="#" class="text-gray-500 underline">Terms of Service</a>
               </p>
-              <div>
-                <button>Play Store</button>
-                <button>App Store</button>
+              <div class="flex items-center gap-4 pt-12">
+                <button
+                  class="flex items-center gap-2 rounded-xl bg-gray-900 px-6 py-4 text-gray-500"
+                >
+                  <playstoreIcon class="h-7 w-7" /> Play Store
+                </button>
+                <button
+                  class="flex items-center gap-2 rounded-xl bg-gray-900 px-6 py-4 text-gray-500"
+                >
+                  <AppleIcon class="h-7 w-7" /> App Store
+                </button>
               </div>
             </div>
           </div>
         </div>
-        <div class=""></div>
+        <div class="mt-10">
+          <div class="flex items-center gap-8">
+            <img src="/img/screen-1.png" class="h-full w-64" alt="" />
+            <img src="/img/screen-2.png" class="h-full w-64 pt-20" alt="" />
+          </div>
+        </div>
       </div>
     </div>
   </div>

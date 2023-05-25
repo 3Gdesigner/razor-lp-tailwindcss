@@ -3417,6 +3417,11 @@ svgo@^3.0.2:
     csso "^5.0.5"
     picocolors "^1.0.0"
 
+tailwindcss-question-mark@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/tailwindcss-question-mark/-/tailwindcss-question-mark-0.1.1.tgz#bc04d92bb9a45ec9a8333ca18a4ea2b697a167e6"
+  integrity sha512-uoFRoGHUqWDmCzWUvboqYmYjqyVL/tUJ6SNviEQKXOfoc3QpUJc1RUHAscYQ0Xl/p+pzT8POFpv6exJzTr9zag==
+
 tailwindcss@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.3.2.tgz#2f9e35d715fdf0bbf674d90147a0684d7054a2d3"

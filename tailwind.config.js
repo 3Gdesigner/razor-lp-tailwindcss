@@ -14,11 +14,11 @@ export default {
           600: "#8D8F92",
           500: "#CDCED3",
         },
-        teal:{
-          500:"#00C39A",
+        teal: {
+          500: "#00C39A",
         },
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-question-mark")],
 };
